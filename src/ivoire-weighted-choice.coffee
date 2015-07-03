@@ -1,4 +1,5 @@
 # Based roughly on https://github.com/forana/darmok-js/blob/development/src/util.js
+"use strict"
 Ivoire = require('ivoire')
 _ = require('lodash')
 
