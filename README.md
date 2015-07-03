@@ -55,7 +55,7 @@ than lightly-weighted options.
 ```
 var i = new require('ivoire-weighted-choice');
 
-// 'foo' come up 10 times for every 1 that 'bar' comes up
+// 'foo' will come up 10 times for every 1 time that 'bar' comes up
 i.weighted_choice(['foo', 'bar'], [10, 1]);
 ```
 
