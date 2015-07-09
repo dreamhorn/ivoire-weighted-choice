@@ -67,4 +67,5 @@ Acknowledgements
 ----------------
 
 Weighted choice algorithm based on the implementation in
-[Darmok](https://github.com/forana/darmok-js/blob/development/src/util.js).
+[Darmok](https://github.com/forana/darmok-js/blob/development/src/util.js), and
+modified to interoperate with the Ivoire framework.
