@@ -4,6 +4,11 @@ ivoire-weighted-choice
 Weighted choices for the [Ivoire](https://www.npmjs.com/package/ivoire) random
 number generator framework.
 
+- [Installing](#installing)
+- [Getting Started](#getting-started)
+- [Reference](#reference)
+- [Acknowledgements](#acknowledgements)
+
 
 Installing
 ----------
@@ -22,23 +27,17 @@ Getting Started
 
 `ivoire-weighted-choice` extends the `ivoire` package. You can require it directly:
 
-```
-var Ivoire = require('ivoire-weighted-choice');
-```
+    var Ivoire = require('ivoire-weighted-choice');
 
 Or you can require it alongside `ivoire`:
 
-```
-var Ivoire = require('ivoire');
-require('ivoire-weighted-choice');
-```
+    var Ivoire = require('ivoire');
+    require('ivoire-weighted-choice');
 
 Either way, instantiate and start making weighted choices!
 
-```
-var i = new Ivoire();
-i.weighted_choice(['foo', 'bar'], [10, 1]);
-```
+    var ivoire = new Ivoire();
+    ivoire.weighted_choice(['foo', 'bar'], [10, 1]);
 
 
 Reference
@@ -47,17 +46,21 @@ Reference
 `ivoire-weighted-choice` adds some methods to the `Ivoire` prototype object, making them
 available on all `Ivoire` instances.
 
-### #weighted_choice(options, weights)
+### #weighted_choice()
 
-Randomly choose an option, choosing more heavily-weighted options more often
-than lightly-weighted options.
+#### Syntax
 
-```
-var i = new require('ivoire-weighted-choice');
+    ivoire.weighted_choice(options, weights)
 
-// 'foo' will come up 10 times for every 1 time that 'bar' comes up
-i.weighted_choice(['foo', 'bar'], [10, 1]);
-```
+#### Usage
+
+Randomly choose an item, choosing more heavily-weighted items more often
+than lightly-weighted items.
+
+    var ivoire = new require('ivoire-weighted-choice');
+
+    // 'foo' will come up 10 times for every 1 time that 'bar' comes up
+    ivoire.weighted_choice(['foo', 'bar'], [10, 1]);
 
 
 Acknowledgements
