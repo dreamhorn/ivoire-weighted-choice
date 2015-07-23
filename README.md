@@ -4,6 +4,8 @@ ivoire-weighted-choice
 Weighted choices for the [Ivoire](https://www.npmjs.com/package/ivoire) random
 number generator framework.
 
+[![Build Status](https://travis-ci.org/dreamhorn/ivoire-weighted-choice.svg)](https://travis-ci.org/dreamhorn/ivoire-weighted-choice)
+
 - [Installing](#installing)
 - [Getting Started](#getting-started)
 - [Reference](#reference)
